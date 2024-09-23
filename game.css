@@ -1,0 +1,947 @@
+ .a{
+    font-family: "Inter";
+    }
+        .inputmessage{
+            /* Rectangle 46 */
+
+            position: absolute;
+            width: 379px;
+            height: 39px;
+            left: 26px;
+            top: 400px;
+
+            background: #121212;
+            border-radius: 0px 0px 11px 11px;
+        }
+        .inputtext{
+            /* Message */
+
+            position: absolute;
+            width: 129px;
+            height: 17px;
+            left: 37px;
+            top: 409px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+
+            color: #999999;
+        }
+.walletbal{
+            position: absolute;
+            width: 25px;
+            height: 18px;
+            left: 295px;
+            top: 21px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
+        .clicksbal{
+            position: absolute;
+            width: 25px;
+            height: 18px;
+            left: 241px;
+            top: 21px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
+        .clicks{
+            box-sizing: border-box;
+            position: absolute;
+            width: 52px;
+            height: 25px;
+            left: 236px;
+            top: 17px;
+            background: rgba(255, 255, 255, 0.13);
+            border: 1px solid rgba(255, 255, 255, 0.01);
+            backdrop-filter: blur(0.3px);
+            border-radius: 16px;
+        }
+        .wallet{
+            box-sizing: border-box;
+            position: absolute;
+            width: 52px;
+            height: 25px;
+            left: 290px;
+            top: 17px;
+            background: rgba(255, 255, 255, 0.13);
+            border: 1px solid rgba(255, 255, 255, 0.01);
+            backdrop-filter: blur(0.3px);
+            border-radius: 16px;
+        }
+        #abs{
+        pointer-events: none;
+            position: absolute;
+            width: 326px;
+            height: 174px;
+            left: calc(50% - 326px/2 + 0px);
+            top: 83px;
+            }
+
+
+            /* Rectangle 28 */
+        #abs1{
+        pointer-events: none;
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 325.19px;
+            height: 173.34px;
+
+            mix-blend-mode: hard-light;
+            border: 7.81354px solid #0094FF;
+            filter: blur(9.10578px);
+            border-radius: 16px;
+            }
+
+            /* Rectangle 28 */
+            #abs2{
+            pointer-events: none;
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 325.19px;
+            height: 173.34px;
+
+            mix-blend-mode: hard-light;
+            border: 10.2177px solid #0094FF;
+            filter: blur(3.03526px);
+            border-radius: 16px;
+            }
+
+            /* Rectangle 28 */
+            #abs3{
+            pointer-events: none;
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 325.19px;
+            height: 173.34px;
+
+            mix-blend-mode: hard-light;
+            border: 7.81354px solid rgba(0, 179, 255, 0.2);
+            box-shadow: inset 0.781354px -1.56271px 0.781354px rgba(255, 255, 255, 0.5);
+            filter: drop-shadow(0px 6.07052px 7.89168px #0066FF) drop-shadow(0px 7.81354px 6.01042px rgba(0, 13, 21, 0.7));
+            border-radius: 16px;
+            }
+
+            /* Rectangle 28 */
+            #abs4{
+            pointer-events: none;
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 325.19px;
+            height: 173.34px;
+
+            border: 4.80833px solid #82D9FF;
+            filter: blur(0.601042px);
+            border-radius: 16px;
+            }
+
+            /* Rectangle 28 */
+            #abs5{
+            pointer-events: none;
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 325.19px;
+            height: 173.34px;
+
+
+            border: 2.40417px solid #FFFFFF;
+            filter: blur(0.400694px);
+            border-radius: 16px;
+        }
+
+
+        body{
+            position: relative;
+            width: 358px;
+            height: 700px;
+            background: #000000;
+        }
+        .ticketsvg{
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            left: 268px;
+            top: 20px;
+        }
+        .tonmoney{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 318px;
+        top: 17px;
+        }
+        .barwitha{
+        pointer-events: none;
+        position: absolute;
+            width: 348px;
+            height: 68px;
+            left: calc(50% - 348px/2);
+            top: 627px;
+
+            background: rgba(18, 18, 18, 0.1);
+            box-shadow: inset 3.01333px -3.01333px 3.01333px rgba(15, 15, 15, 0.4), inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(15.0667px);
+            /* Note: backdrop-filter has minimal browser support */
+            border-radius: 16px;
+        }
+        .gameonbar{
+            pointer-events: none;
+            /* Rectangle 32 */
+
+            position: absolute;
+            width: 59px;
+            height: 54px;
+            left: 8px;
+            top: 633px;
+
+            border-radius: 16px;
+        }
+        .walletbar{
+
+            pointer-events: none;                            /* Rectangle 33 */
+
+            position: absolute;
+            width: 59px;
+            height: 54px;
+            left: 102px;
+            top: 633px;
+
+            border-radius: 16px;
+
+        }
+        .leaderboard{
+            pointer-events: none;
+            /* Rectangle 34 */
+
+            position: absolute;
+            width: 59px;
+            height: 54px;
+            left: 196px;
+            top: 633px;
+            background: #222222;
+
+            border-radius: 16px;
+
+
+        }
+        .profile{
+            pointer-events: none;
+            /* Rectangle 35 */
+
+            position: absolute;
+            width: 59px;
+            height: 54px;
+            left: 290px;
+            top: 633px;
+            border-radius: 16px;
+        }
+        .gametext{
+            position: absolute;
+            width: 39px;
+            height: 20px;
+            left: 18px;
+            top: 668px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+            text-decoration: none;
+
+            color: #FFFFFF;
+        }
+        .icongame{
+           /* Apple Arcade */
+
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 20px;
+            top: 635px;
+        }
+        .iconwallet{
+            /* Wallet */
+
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 114px;
+            top: 635px;
+
+        }
+        .iconrating{
+            /* Laurel Wreath */
+
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 208px;
+            top: 635px;
+        }
+        .iconprofile{
+            /* Male User */
+
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 302px;
+        top: 635px;
+        }
+        .wallettext{
+            /* Wallet */
+
+            position: absolute;
+            width: 59px;
+            height: 20px;
+            left: 102px;
+            top: 667px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+
+            pointer-events: auto;
+            text-decoration: none;
+        }
+        .leadertext{
+        /* Rating */
+        pointer-events: auto;
+
+        position: absolute;
+        width: 39px;
+        height: 15px;
+        left: 201px;
+        top: 668px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+
+            text-decoration: none;
+        }
+        .profiletext{
+            /* Profile */
+
+position: absolute;
+width: 58px;
+height: 20px;
+left: 290px;
+top: 668px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+            pointer-events: auto;
+            text-decoration: none;
+        }
+
+        .webtonn{
+            /* Group */
+
+            position: absolute;
+            width: 80px;
+            height: 51px;
+            left: 0px;
+            top: 4px;
+
+
+        }
+        .webtonnw{
+        /* Group */
+
+            position: absolute;
+            width: 59px;
+            height: 54px;
+            left: 50px;
+            top: 4px;
+
+
+        }
+        .inputmessage{
+            /* Rectangle 46 */
+            pointer-events: auto;
+                        /* Rectangle 46 */
+
+            position: absolute;
+            width: 318px;
+            height: 29px;
+            left: 21px;
+            top: 220px;
+
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+            color: #999999;
+            background: #121212;
+            border-radius: 0px 0px 11px 11px;
+            }
+        .inputmessage:focus::-webkit-input-placeholder{
+          color: transparent;
+        }
+
+        .inputtext{
+            /* Message */
+
+            position: absolute;
+            width: 129px;
+            height: 17px;
+            left: 37px;
+            top: 409px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 16px;
+
+            color: #999999;
+
+        }
+        .senddata{
+        pointer-events: none;
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 306px;
+        top: 222px;
+        }
+
+        .butplay{
+            pointer-events: auto;
+            background:none;
+            border:none;
+            margin:0;
+            padding:0;
+            position: absolute;
+            width: 23px;
+            height: 23px;
+            left: 306px;
+            top: 225px;
+            color: #121212;
+        }
+        #topfive{
+            overflow:hidden;
+            overflow-y:auto;
+            pointer-events: auto;
+            position: absolute;
+            width: 290px;
+            height: 120px;
+            left: 33px;
+            top: 99px;
+
+        }
+        #topfive::-webkit-scrollbar-track {
+                  border-radius: 100px;
+
+          background-color: #000000;
+                     }
+                     #topfive::-webkit-scrollbar {
+
+              width: 5px;
+            }
+            #topfive::-webkit-scrollbar-thumb {
+              border-radius: 100px;
+
+              background-color: #0066FF;
+        }
+        .leadt{
+        /* LEADERBOARD */
+
+                    /* LEADERBOARD */
+
+            position: absolute;
+            width: 290px;
+            height: 54px;
+            left: 34px;
+            top: 285px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 36px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+
+        }
+        .checklead{
+        /* Rectangle 34 */
+
+        /* Rectangle 53 */
+
+        position: absolute;
+        width: 330px;
+        height: 35px;
+        left: 16px;
+        top: 324px;
+
+        background: #121212;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #999999;
+        }
+        input {
+        outline: none;
+        border: none;
+        }
+        .lupa{
+position: absolute;
+left: 15px;
+top: 329px;
+        }
+        .checklead:focus::-webkit-input-placeholder{
+          color: transparent;
+        }
+        #winner1{
+        position: absolute;
+        width: 326px;
+        height: 35px;
+        left: 16px;
+        top: 379px;
+
+        background: #121212;
+        border-radius: 10px;
+
+        }
+        #winner2{
+        /* Rectangle 38 */
+        position: absolute;
+        width: 326px;
+        height: 35px;
+        left: 16px;
+        top: 423px;
+
+        background: #121212;
+        border-radius: 10px;
+        }
+        #winner3{
+        /* Rectangle 38 */
+
+       position: absolute;
+        width: 326px;
+        height: 35px;
+        left: 16px;
+        top: 467px;
+
+        background: #121212;
+        border-radius: 10px;
+        }
+        #winner4{
+        /* Rectangle 38 */
+        position: absolute;
+        width: 326px;
+        height: 35px;
+        left: 16px;
+        top: 511px;
+
+        background: #121212;
+        border-radius: 10px;
+        }
+        #winner5{
+        /* Rectangle 38 */
+
+        position: absolute;
+        width: 326px;
+        height: 35px;
+        left: 16px;
+        top: 555px;
+
+        background: #121212;
+        border-radius: 10px;
+        }
+        #winner4text{
+        /* 5 */
+
+        position: absolute;
+        width: 15px;
+        height: 24px;
+        left: 8px;
+        top: 3px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 29px;
+
+        color: #FFFFFF;
+        }
+        #winner5text{
+        /* 5 */
+
+        position: absolute;
+        width: 15px;
+        height: 24px;
+        left: 8px;
+        top: 3px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 29px;
+
+        color: #FFFFFF;
+        }
+        .winner1txt2{
+
+                    /* Messi */
+
+            position: absolute;
+            width: 63px;
+            height: 18px;
+            left: calc(50% - 63px/2 - 95.5px);
+            top: 387px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #FFFFFF;
+
+
+        }
+        .winner2txt2{
+
+
+                    /* Messi */
+
+            position: absolute;
+            width: 63px;
+            height: 18px;
+            left: calc(50% - 63px/2 - 95.5px);
+            top: 431px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #FFFFFF;
+
+        }
+        .winner3txt2{
+        position: absolute;
+        width: 63px;
+        height: 18px;
+        left: calc(50% - 63px/2 - 95.5px);
+        top: 475px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+        }
+        .winner4txt2{
+
+                /* Messi */
+
+        position: absolute;
+        width: 63px;
+        height: 18px;
+        left: calc(50% - 63px/2 - 95.5px);
+        top: 519px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+
+        }
+        .winner5txt2{
+            position: absolute;
+            width: 63px;
+            height: 18px;
+            left: calc(50% - 63px/2 - 95.5px);
+            top: 563px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #FFFFFF;
+        }
+        .winner1txt{
+                /* Messi */
+
+                /* 5 000 000$ */
+
+        position: absolute;
+        width: 78px;
+        height: 14px;
+        left: calc(50% - 78px/2 + 99px);
+        top: 389px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #FFFFFF;
+
+
+        }
+        .winner2txt{
+        /* Messi */
+                /* Messi */
+
+                /* 5 000 000$ */
+
+        position: absolute;
+        width: 78px;
+        height: 14px;
+        left: calc(50% - 78px/2 + 99px);
+        top: 433px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #FFFFFF;
+
+
+        }
+        .winner3txt{
+        /* Messi */
+                /* Messi */
+
+                /* 5 000 000$ */
+
+        position: absolute;
+        width: 78px;
+        height: 14px;
+        left: calc(50% - 78px/2 + 99px);
+        top: 477px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #FFFFFF;
+
+
+
+        }
+        .winner4txt{
+        /* Messi */
+                /* Messi */
+
+                /* 5 000 000$ */
+
+        position: absolute;
+        width: 78px;
+        height: 14px;
+        left: calc(50% - 78px/2 + 99px);
+        top: 521px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #FFFFFF;
+
+        }
+        .winner5txt{
+                /* Messi */
+
+                /* 5 000 000$ */
+
+        position: absolute;
+        width: 78px;
+        height: 14px;
+        left: calc(50% - 78px/2 + 99px);
+        top: 565px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #FFFFFF;
+        }
+        #notfound{
+            display: none;
+            position: absolute;
+            width: 160px;
+            height: 31px;
+            left: calc(50% - 149px/2 - 0.5px);
+            top: 379px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+
+            color: #FFFFFF;
+            }
+            .roza{
+            /* Rectangle 53 */
+
+            position: absolute;
+            width: 326px;
+            height: 35px;
+            left: 16px;
+            top: 324px;
+
+            background: #121212;
+            border-radius: 10px;
+
+            position:absolute;
+            width: 50px;
+            left:8px;
+            background: #121212;
+            border-radius: 10px;
+            }
+            #fakewinner{
+            display: none;
+
+            position: absolute;
+            width: 326px;
+            height: 35px;
+            left: 16px;
+            top: 379px;
+
+            background: #121212;
+            border-radius: 10px;
+
+            }
+            #fakewinnertxt{
+            /* 4 */
+            display: none;
+            position: absolute;
+            width: 15px;
+            height: 24px;
+            left: 8px;
+            top: 5px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+
+            color: #FFFFFF;
+
+
+            }
+            #fakewinnertxt2{
+            /* Penaldo */
+            display: none;
+            position: absolute;
+            width: 94px;
+            height: 18px;
+            left: 39px;
+            top: 8px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: #FFFFFF;
+
+
+            }
+            #fakewinnertext{
+                        /* 5 000 000$ */
+            display: none;
+            position: absolute;
+            width: 78px;
+            height: 14px;
+            left: 253px;
+            top: 10px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+
+            color: #FFFFFF;
+
+
+            }
+            #ver{
+            display: none;
+                            /* Get into the top 5 */
+
+            position: absolute;
+            width: 305px;
+            height: 32px;
+            left: calc(50% - 305px/2 - 0.5px);
+            top: 204px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #999999;
+            }
