@@ -1,0 +1,49 @@
+async function Name() {
+    event.preventDefault();
+    let name = document.getElementById("nicknameinput").value;
+    document.getElementById("nicknameinput").value="";
+    document.getElementById("nicknameinput").blur();
+    let flag = 1;
+        try {
+        let aron = document.getElementById("myFileInput");
+        let garon = aron.files[0];
+        const formData = new FormData();
+        formData.append('file', garon, idi+'.png');
+
+            $.ajax({
+            url: '/register',
+            data: formData,
+            type: 'POST',
+            contentType: false,
+            processData: false,
+            });
+        } catch {
+            flag = 0;
+            document.getElementById("typeshit").innerHTML = "Attach a photo in png format";
+            document.getElementById("typeshit").style.width = "200px";
+            document.getElementById("typeshit").style.top = "413.5px";
+            document.getElementById("warningtext").style.display = "block";
+            document.getElementById("typeshit").style.display = "block";
+        }
+        if (flag==1) {
+            $.post("/register2", {name: name, telegramtodelete: idi}, function (response) {
+                if (Object.values(response) == 0) {
+                    document.getElementById("typeshit").style.width = "294px";
+                    document.getElementById("typeshit").style.top = "410.5px";
+                    document.getElementById("typeshit").innerHTML = "User name must be at least 5-characters long but not more than 20-characters, must start with a letter, may consist only of A-z, 0-9.";
+                    document.getElementById("warningtext").style.display = "block";
+                    document.getElementById("typeshit").style.display = "block";
+                }
+                if (Object.values(response) == 2) {
+                    document.getElementById("typeshit").innerHTML = "Username is already taken";
+                    document.getElementById("typeshit").style.display = "block";
+                    document.getElementById("warningtext").style.display = "block";
+
+                }
+                if (Object.values(response) == 1) {
+                    location.href = '/game';
+                }
+
+            });
+        }
+    }
